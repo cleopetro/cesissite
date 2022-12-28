@@ -6,8 +6,8 @@
 
 .number{
     position: absolute;
-    right: 50px;
-    top:10px;
+    right: 5%;
+    top:3%;
 }
 
 .knopka{
@@ -16,10 +16,10 @@
 
 /*стилистика кнопки вверх*/
 .topbutton{
-    width:100px;
+    width:70px;
     border:2px solid #ccc;
     border-radius:50px;
-    background:green;
+    background:#057DC2;
     text-align:center;
     padding:10px;
     position: fixed;
@@ -36,11 +36,49 @@
     text-align:center;
 
 }
+
 .footer {
+    position: relative;
     flex: 0 0 auto;
-    border: 1px;
+    border: 2px black;
 }
+
 .usermail{
-    background-color: SteelBlue;
+    position: relative;
+    background-color: #B8E5FF;
     border-radius: 10px;
+    max-width: 60%;
+    left:20%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.exampleCheck1{
+    margin-left: 10%;
+}
+
+.usermail h3{
+text-align:center
+}
+
+.contact{
+    position: absolute;
+    text-align: right;
+    right: 40%;
+    bottom:20%;
+}
+.number2{
+    position: absolute;
+    text-align: right;
+    right: 2%;
+    bottom:10%;
+}
+
+.allcard img {
+    transition: 1s;
+    display: block;
+}
+
+.allcard img:hover{
+    transform: scale(1.2);
 }
